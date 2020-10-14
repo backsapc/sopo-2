@@ -1,3 +1,5 @@
 - hosts: all
+  vars:
+    nginx_user: nginx
   roles:
     - nginx-role
