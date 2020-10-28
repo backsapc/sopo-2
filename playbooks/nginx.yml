@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: clone
   vars:
     nginx_user: nginx
     worker_connections: 2048    
